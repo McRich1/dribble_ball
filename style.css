@@ -1,0 +1,51 @@
+body{
+    background-color: bisque;
+    justify-items: center;
+}
+
+#container{
+    width: 600px;
+    
+}
+p{
+    font-size: 30px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: rgb(127, 191, 78);
+    text-align: center;
+}
+h1{
+    font-size: 60px;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: saddlebrown;
+    text-align: center;
+}
+
+#ball{
+    width: 100px;
+    height: 100px;
+    background-color: rgb(16, 42, 173);
+    border-radius: 50%;
+    position: absolute;
+    left: 50%;
+    bottom: 50px;
+    transition-property: bottom;
+    transition-duration: 3s;
+}
+#platform{
+    width: 100px;
+    height: 20px;
+    position: absolute;
+    left: 50%;
+    right: 50%;
+    bottom: 30px;
+    background-color: white;
+}
+
+#floor{
+    width: 100%;
+    background-color: grey;
+    height: 30px;
+    position: absolute;
+    bottom: 0;
+    left: 0px;
+}
