@@ -49,3 +49,49 @@ h1{
     bottom: 0;
     left: 0px;
 }
+button {
+  -webkit-transition-duration: 0.1s; /* Safari */
+  transition-duration: 0.1s;
+  background-color: #0ac67e;
+  border-radius: 8px;
+  border-bottom: 4px solid #170102;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 2px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: #26d729;
+  border: none;
+  border-radius: 8px;
+  border-bottom: 4px solid #0e0c0c;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 2px;
+}
+
+button:active {
+  background-color: #1d5c16;
+  border: none;
+  border-radius: 8px;
+  border-bottom: 4px solid #166327;
+  color: #CCC;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  font-family: 'Oxygen', sans-serif;
+  letter-spacing: 2px;
+}
